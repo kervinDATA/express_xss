@@ -1,0 +1,29 @@
+{
+  "name": "message-board",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd front-end-app && npm install",
+    "start": "node .",
+    "start:watch": "nodemon",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^7.2.0",
+    "memory-cache": "^0.2.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^1.18.10",
+    "supertest": "^7.0.0"
+  }
+}
